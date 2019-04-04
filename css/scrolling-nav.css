@@ -16,17 +16,11 @@
    -o-background-size: cover;
 }
 
-/* .card {
-  background-color: #d5cfdf;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23c9c0d8' fill-opacity='0.29' fill-rule='evenodd'/%3E%3C/svg%3E");
-} */
-
 .card-holder {
   min-width: 15em;
 }
 
 .flex-center {
-  /* align-items: center; */
   display: flex;
   justify-content: center;
 }
@@ -54,6 +48,19 @@
   border-radius: 50%;
   margin: 5rem 0;
   width: 15rem;
+}
+
+h2 {
+  border-bottom: 3px solid black;
+  display: inline;
+}
+
+.h2-about {
+  margin-bottom: 1.5rem;
+}
+
+.h2-proj {
+  border-bottom: 3px solid white;
 }
 
 i {
