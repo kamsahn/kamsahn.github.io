@@ -62,10 +62,18 @@ i {
 
 .icon-img {
   display: inline-block;
-  height: 10vh;
+  height: 7rem;
   margin: 1rem 2rem;
   opacity: .85;
-  width: 10vh;
+  width: 7rem;
+}
+
+.icon-img:hover {
+  opacity: 1;
+}
+
+.icon-aws {
+  height: 6rem;
 }
 
 .projects {
@@ -122,10 +130,15 @@ section {
   }
 
   .icon-img {
-    height: 8vh;
+    height: 4.5rem;
     margin: .5rem;
     opacity: 1;
-    width: 8vh;
+    width: 4.5rem;
+  }
+
+  .icon-aws {
+    height: 4rem;
+    margin-top: 1rem;
   }
 
   .img-box {
@@ -134,5 +147,10 @@ section {
 
   .skills-container {
     margin: 0;
+  }
+
+  .skills-section {
+    display: flex;
+    justify-content: center;
   }
 }
