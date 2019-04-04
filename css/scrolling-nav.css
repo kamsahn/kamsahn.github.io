@@ -1,0 +1,138 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ .box {
+   height: 15rem;
+ }
+
+.bg-image-full {
+   background: no-repeat center center scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
+/* .card {
+  background-color: #d5cfdf;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23c9c0d8' fill-opacity='0.29' fill-rule='evenodd'/%3E%3C/svg%3E");
+} */
+
+.card-holder {
+  min-width: 15em;
+}
+
+.flex-center {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.gal-container {
+  margin-top: 2rem;
+}
+
+.gal-img {
+  height: 12rem;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to top,
+    red, orange
+    );
+}
+
+.greeting {
+  padding: 156px 0 100px;
+}
+
+.head-shot {
+  border-radius: 50%;
+  margin: 5rem 0;
+  width: 15rem;
+}
+
+i {
+  color: #ff6600;
+}
+
+.icon-img {
+  display: inline-block;
+  height: 10vh;
+  margin: 1rem 2rem;
+  opacity: .85;
+  width: 10vh;
+}
+
+.projects {
+  color: white;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.skills-container {
+  margin: 0 auto;
+}
+
+.skills-list {
+  margin: 3rem;
+}
+
+.skills-section {
+  padding: 20px 0;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+}
+
+.square-icon {
+  border-radius: 5px;
+}
+
+.square-icon-more {
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .box {
+    height: 20rem;
+  }
+
+  .card-holder {
+    max-width: 13rem;
+  }
+
+  .gal-container {
+    margin-top: 4rem;
+  }
+
+  .gal-img {
+    height: 8rem;
+  }
+
+  .gal-text {
+    font-size: .9em;
+  }
+
+  .icon-img {
+    height: 8vh;
+    margin: .5rem;
+    opacity: 1;
+    width: 8vh;
+  }
+
+  .img-box {
+    align-items: center;
+  }
+
+  .skills-container {
+    margin: 0;
+  }
+}
