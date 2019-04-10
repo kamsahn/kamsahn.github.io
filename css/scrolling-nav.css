@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+ .big-gal-con {
+   padding: 0 9rem;
+ }
+
  .box {
    height: 15rem;
  }
@@ -117,6 +121,10 @@ section {
 }
 
 @media (max-width: 600px) {
+  .big-gal-con {
+    padding: 0 1.5rem;
+  }
+
   .box {
     height: 20rem;
   }
