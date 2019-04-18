@@ -149,6 +149,7 @@ section {
   .box {
     height: 20rem;
     padding: 0 5px;
+    margin: 4rem 0;
   }
 
   .card-holder {
