@@ -24,6 +24,10 @@
   min-width: 15em;
 }
 
+.col-sm-2 {
+  padding: 0;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -88,6 +92,10 @@ i {
   height: 6rem;
 }
 
+/* .nav-con {
+  width: 90%;
+} */
+
 .projects {
   color: white;
 }
@@ -120,6 +128,11 @@ section {
   font-size: 1.5rem;
 }
 
+.social-icon-be {
+  color: #42c9b1;
+  font-size: 1.5rem;
+}
+
 .square-icon {
   border-radius: 5px;
 }
@@ -130,11 +143,12 @@ section {
 
 @media (max-width: 600px) {
   .big-gal-con {
-    padding: 0 1.5rem;
+    padding: .5rem;
   }
 
   .box {
     height: 20rem;
+    padding: 0 5px;
   }
 
   .card-holder {
@@ -142,11 +156,12 @@ section {
   }
 
   .gal-container {
-    margin-top: 4rem;
+    margin: 4rem 0;
+    width: 100%;
   }
 
   .gal-img {
-    height: 8rem;
+    height: 6rem;
   }
 
   .gal-text {

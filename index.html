@@ -27,7 +27,8 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container nav-con">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Sam Kahn</a>
       <div class="social d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/samuel-j-kahn/" target="_blank" class="mx-3">
           <i class="fab fa-linkedin social-icon"></i>
@@ -41,9 +42,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#page-top">Sam</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
@@ -113,7 +111,16 @@
             write their own blog posts and comment and like other users' posts.
             This was my third web development project, done along side a team of
             other junior developers. Along with using Node, Express and MongoDB,
-            we implemented agile project management.</p>
+            we implemented agile project management.
+          </p>
+          <div>
+            <a href="https://github.com/m-d-h-s/mdhs-blog-frontend" target="_blank" class="mx-3">
+              <i class="fab fa-github social-icon"></i>
+            </a>
+            <a href="https://github.com/m-d-h-s/mdhs-blog-backend" target="_blank" class="mx-3">
+              <i class="fab fa-github social-icon-be"></i>
+            </a>
+          </div>
         </div>
       </div>
       <div class="row flex-center gal-container">
@@ -123,7 +130,16 @@
             recipes. This was my second web app and was my first full stack project.
             The back end is a custom Ruby on Rails API, featuring a complex relational
             database. The user interface features Bootstrap, SCSS, jQuery and Handlebars
-            for a sleek experience.</p>
+            for a sleek experience.
+          </p>
+          <div>
+            <a href="https://github.com/kamsahn/full-stack-project-client" target="_blank" class="mx-3">
+              <i class="fab fa-github social-icon"></i>
+            </a>
+            <a href="https://github.com/kamsahn/full-stack-project-api" target="_blank" class="mx-3">
+              <i class="fab fa-github social-icon-be"></i>
+            </a>
+          </div>
         </div>
         <div class="col-4 flex-center img-box box">
           <a href="https://kamsahn.github.io/full-stack-project-client/" target="_blank">
@@ -143,7 +159,11 @@
             game. It features custom logic and AI created with JavaScript as well as
             a visually pleasing interface made with HTML, SCSS, Bootstrap and jQuery.
             Along with gaining comfortability with development, I learned valuable leasons
-            in time management and scope creep that I can take into any future projects.</p>
+            in time management and scope creep that I can take into any future projects.
+          </p>
+          <a href="https://github.com/kamsahn/game-project-client" target="_blank" class="mx-3">
+            <i class="fab fa-github social-icon"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -246,35 +266,26 @@
 
       <div class="row flex-center">
 
-        <div class="col-md-4 mb-3 mb-md-0 card-holder">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt mb-2"></i>
-              <hr class="my-4">
-              <div class="small info-tag">Boston, MA</div>
+        <div class="col-md-4">
+          <div class="card-body text-center">
+            <i class="fas fa-map-marked-alt my-3"></i>
+            <div class="small info-tag">Boston, MA</div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-body text-center">
+            <i class="fas fa-envelope my-3"></i>
+            <div class="small text-black-50">
+              <a href="mailto:samjkahn@gmail.com">samjkahn@gmail.com</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0 card-holder">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope mb-2"></i>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="mailto:samjkahn@gmail.com">samjkahn@gmail.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0 card-holder">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt mb-2"></i>
-              <hr class="my-4">
-              <div class="small info-tag">+1 (562) 370-5817</div>
-            </div>
+        <div class="col-md-4">
+          <div class="card-body text-center">
+            <i class="fab fa-github my-3"></i>
+            <div class="small info-tag">github.com/kamsahn</div>
           </div>
         </div>
       </div>
@@ -303,7 +314,9 @@
 
   <!-- Animate on Scroll -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
