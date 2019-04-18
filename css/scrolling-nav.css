@@ -92,6 +92,14 @@ i {
   color: white;
 }
 
+.resume-btn {
+  color: white;
+}
+
+.resume-btn:hover {
+  color: white;
+}
+
 section {
   padding: 150px 0;
 }
