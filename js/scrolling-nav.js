@@ -26,4 +26,7 @@
     offset: 56
   });
 
+  // Tooltips
+  $('[data-toggle="tooltip"]').tooltip();
+
 })(jQuery); // End of use strict
