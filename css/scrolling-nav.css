@@ -43,8 +43,8 @@
 
 .gradient {
   background-image: linear-gradient(
-    to top,
-    red, orange
+    to bottom,
+    #03fce3, #01423c
     );
 }
 
@@ -73,7 +73,7 @@ h2 {
 }
 
 i {
-  color: #ff6600;
+  color: #00e0c7;
 }
 
 .icon-img {
@@ -129,7 +129,7 @@ section {
 }
 
 .social-icon-be {
-  color: #42c9b1;
+  color: #ff6600;
   font-size: 1.5rem;
 }
 
@@ -167,13 +167,6 @@ section {
 
   .gal-text {
     font-size: .9em;
-  }
-
-  .icon-img {
-    height: 4.5rem;
-    margin: .5rem;
-    opacity: 1;
-    width: 4.5rem;
   }
 
   .icon-aws {
